@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}" />
+</head>
+<body>
+    <header>
+        <form action="" method="post" id="barra">
+            <input type="text" id="name" name="name" placeholder="Buscar raza" />
+            <input type="submit" id="send-buscar" name="buscar" value="Buscar" />
+        </form>
+    </header>
+    <br>
+    <br>
+    <div class="cat">
+        <img src="{{imagen}}" alt="Imagen no encontrada.">
+    </div>
+</body>
+</html>
